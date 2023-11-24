@@ -1,0 +1,19 @@
+.outer-container{
+    display: flex;
+    margin: 30px 30px;
+    padding: 30px 30px;
+    justify-content: center !important;
+}
+
+.mid-box img {
+    width: 400px;
+}
+
+@media (min-width: 768px){
+    .mid-box img {
+       width: 900px;
+    }
+}
+
+
+
